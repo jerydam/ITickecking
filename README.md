@@ -2,7 +2,7 @@
 
 This is our open source [Next.js](https://nextjs.org/) , [Solana](https://github.com/solana-labs ) dApp Scaffold for the community and whole ecosystem - without much fluff and just the essentials. 💪
 
-Feel free to use it as a starting point for your next Solana project - we will and already use it for our developments.
+Feel free to use it as a starting point for your next project - we will and already use it for our developments.
 
 Also feel free to send us feedback, open an issue or even PR and contribute by creating your own components, refactoring or other improvements.
 
