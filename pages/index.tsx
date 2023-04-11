@@ -34,31 +34,31 @@ const Home: NextPage = () => {
               <a
                 href="https://builderz.build"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
+                rel="noopener noreferrer">
+                {' '}
                 <Image
                   src="/images/builderz-logo-b.png"
-                  height={60}
-                  width={50}
+                  height={150}
+                  width={130}
                   style={{
-                    objectFit: "contain",
+                    objectFit: 'contain',
                   }}
                   alt="builderz"
                 />
               </a>
               <Image
-                width={75}
-                height={75}
+                width={150}
+                height={150}
                 src="/sol.png"
                 className={styles.icon}
                 alt="sol"
               />
             </div>
-            <h1 className={styles.h1}>Hello Solana, meet Builderz 👋</h1>
+            <h1 className={styles.h1}>
+              Hello, You are Welcome 👋 to is ITicket platform,
+            </h1>
             <p className={styles.explain}>
-              Explore what you can do with Builderz&rsquo; brand new{" "}
-              <b>Builderz Solana dApp Scaffold</b>
+              <b>The future of Event Registration platform</b>
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-around  items-center py-8">
               <button onClick={notify} className="btn glow-on-hover">

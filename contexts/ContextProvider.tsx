@@ -36,7 +36,7 @@ export const WalletContextProvider: FC<{ children: ReactNode }> = ({
   }, []);
 
   return (
-    <ConnectionProvider endpoint={process.env.NEXT_PUBLIC_HELIUS_URL!}>
+    <ConnectionProvider endpoint="https://eth-sepolia.g.alchemy.com/v2/RbXzMY2Ap-CfgX2UhW6EvSwQIgg0H5Wn">
       <WalletProvider wallets={wallets} onError={onError} autoConnect={true}>
         <ReactUIWalletModalProvider>{children}</ReactUIWalletModalProvider>
       </WalletProvider>
