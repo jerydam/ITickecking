@@ -63,23 +63,3 @@ On `pages/_app.tsx`, you'll find `ThemeProvider` for light/dark mode, "ContextPr
 Although we are using Nextjs13 we are using the "old" folder structure as long as the "app" structure is in experimental mode.
 We will add a `app-structure` branch as soon as its running more stable soon.
 
-## Learn More
-
-To learn more about Solana and Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-
-- [Solana Documentation](https://docs.solana.com/) - learn about Solana features.
-- [Anchor Language Book](https://book.anchor-lang.com/) - learn about Solana features.
-- [Rust Anchor Documentation](https://docs.rs/anchor-lang/latest/anchor_lang/) - learn about Solana features.
-- [Material-UI Getting Started](https://mui.com/material-ui/getting-started/overview/) - learn about Material-UI features.
-- [TailwindCSS Documentation](https://tailwindcss.com/docs/guides/nextjs) - learn about TailwindCSS features.
-
-
-
-
-You can check out [the Cynova GitHub organization](https://github.com/cynova-enterprise) - your feedback and contributions are welcome!
-
-## Join our Discord
-
-For any questions, suggestions, join our discord at [https://discord.gg/cynova-enterprise](https://discord.gg/cynova-enterprise).
