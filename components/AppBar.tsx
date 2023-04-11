@@ -1,5 +1,6 @@
 import React from 'react';
 import AppBar from '@mui/material/AppBar';
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -7,12 +8,6 @@ import dynamic from 'next/dynamic';
 import Drawer from './Drawer';
 import ThemeSwitcherComponent from './ThemeSwitcher';
 import { Logo } from './Logo';
-
-const WalletMultiButtonDynamic = dynamic(
-  async () =>
-    (await import('@solana/wallet-adapter-react-ui')).WalletMultiButton,
-  { ssr: false },
-);
 
 export default function PrimarySearchAppBar({ setTheme }: any) {
   return (
@@ -46,7 +41,7 @@ export default function PrimarySearchAppBar({ setTheme }: any) {
             }}>
             <div className="flex ml-4 items-center gap-2">
               <ThemeSwitcherComponent themeChanger={setTheme} />
-              <WalletMultiButtonDynamic className="btn btn-outline glow my-4" />
+              <ConnectButton/>
             </div>
           </Box>
         </Toolbar>

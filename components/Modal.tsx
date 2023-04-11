@@ -27,7 +27,7 @@ export default function TransitionsModal() {
 
   return (
     <div>
-      <Button className="btn glow-on-hover" onClick={handleOpen}>Open modal</Button>
+      <Button className="btn glow-on-hover" onClick={handleOpen}>Create Event</Button>
       <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
@@ -42,10 +42,10 @@ export default function TransitionsModal() {
         <Fade in={open}>
           <Box sx={style}>
             <Typography id="transition-modal-title" variant="h6" component="h2">
-              Hello Builder 👋
+              Hello 👋
             </Typography>
             <Typography id="transition-modal-description" sx={{ mt: 2, mb: 2 }}>
-              We encourage you to contribute to this project by adding your own components to the Builderz Solana dApp Scaffold.
+              The future of Event registeration is Here.
             </Typography>
             <Button href="https://github.com/Cynova-Group/builderz-solana-dapp-scaffold" target="__blank" variant="outlined" color="secondary" endIcon={<GitHubIcon />}>
               Send
